@@ -31,4 +31,8 @@ app.get('/new', (req, res) => {
     res.send('nueva página!!!!')
 })
 
+app.get('/myname', (req, res) => {
+    res.send('<h1>José Manuel Herrero</h1>')
+})
+
 app.listen( process.env.PORT || 3000)
