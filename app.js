@@ -27,4 +27,8 @@ app.get('/habilidades', (req, res) => {
     res.send("habilidades")
 })
 
+app.get('/new', (req, res) => {
+    res.send('nueva página!!!!')
+})
+
 app.listen( process.env.PORT || 3000)
